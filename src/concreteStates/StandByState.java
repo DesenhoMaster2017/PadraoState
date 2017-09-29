@@ -4,6 +4,8 @@ import stateInterface.PlayerStateInterface;
 import stateMachine.Player;
 import concreteStates.*;
 
+
+
 public class StandByState implements PlayerStateInterface{
 	
 	private boolean standByState = true;
@@ -31,5 +33,4 @@ public class StandByState implements PlayerStateInterface{
 			System.out.println("Entering on standby...");
 		}
 	}
-
 }

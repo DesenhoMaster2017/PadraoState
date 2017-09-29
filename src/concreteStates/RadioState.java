@@ -4,6 +4,8 @@ import stateInterface.PlayerStateInterface;
 import stateMachine.Player;
 import concreteStates.*;
 
+
+
 public class RadioState implements PlayerStateInterface{
 
 	public RadioState(){
@@ -18,8 +20,5 @@ public class RadioState implements PlayerStateInterface{
 	@Override
 	public void actionButton(Player player) {
 		System.out.println("changing frequency...");
-		
 	}
-
-	
 }

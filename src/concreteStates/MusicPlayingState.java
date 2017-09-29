@@ -4,6 +4,8 @@ import stateInterface.PlayerStateInterface;
 import stateMachine.Player;
 import concreteStates.*;
 
+
+
 public class MusicPlayingState implements PlayerStateInterface{
 
 	public MusicPlayingState(){
@@ -19,5 +21,4 @@ public class MusicPlayingState implements PlayerStateInterface{
 	public void actionButton(Player player) {
 		player.setState(new MusicPausedState());
 	}
-
 }
